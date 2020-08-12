@@ -1,32 +1,76 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+  <main id="app" class="body light">
     <router-view />
-  </div>
+  </main>
 </template>
+<script>
+export default {
+  name: "App"
+};
+</script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+html {
+  --heading-font-family: "Source Sans Pro", sans-serif;
+  --body-font-family: "Source Sans Pro", sans-serif;
+  --body-fontcolor--transition: color 0.2s ease-out;
+  --body-background-color--transition: background-color 0.1s ease-out;
 }
 
-#nav {
-  padding: 30px;
+@supports (font-variation-settings: normal) {
+  html {
+    --heading-font-family: "Source Sans Pro", sans-serif;
+  }
 }
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
+@media (min-width: 320px) and (max-width: 480px) {
+  .signInWrapper {
+    --body-padding: 1rem;
+  }
 }
 
-#nav a.router-link-exact-active {
-  color: #42b983;
+body,
+main.body {
+  width: 100vw;
+  height: calc(100vh - calc(100vh - 100%)) 100vh;
+  height: -webkit-fill-available; /* Fix mobile safari bug */
+  position: fixed;
+  overflow: hidden;
+  margin: 0px;
+  background-color: var(--background-color);
+  transition: var(--body-background-color--transition),
+    var(--body-fontcolor--transition);
+  color: var(--text-color);
+}
+main.body {
+  animation: fadeIn 0.2s ease-out;
+}
+
+main.body.light {
+  --background-color: #ffffff;
+  --panel-color: 255, 255, 255;
+  --text-color: #191919;
+}
+
+main.body.dark {
+  --background-color: #000000;
+  --panel-color: 55, 55, 55;
+  --text-color: #ffffff;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+iframe {
+  display: none;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent; /* for removing the highlight */
 }
 </style>

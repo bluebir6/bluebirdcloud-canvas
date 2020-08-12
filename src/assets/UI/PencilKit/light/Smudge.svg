@@ -1,0 +1,116 @@
+<svg width="38" height="87" viewBox="0 0 38 87" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g filter="url(#filter0_dd)">
+        <rect x="8" y="46" width="22" height="41" fill="url(#paint0_linear)"/>
+        <path d="M8 47.3542V52H30V47.3542C30 45.412 29.7643 43.477 29.2979 41.5916L20.2401 4.97078C20.0991 4.40058 19.5874 4.00003 19 4.00003C18.4126 4.00003 17.9009 4.40057 17.7599 4.97078L8.70207 41.5916C8.23575 43.477 8 45.412 8 47.3542Z" fill="url(#paint1_linear)"/>
+        <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="8" y="4" width="22" height="41">
+            <path d="M8.10638 44L8.10327 44.0126C8.08841 44.0727 8 44.0619 8 44H8.10638L17.7599 4.97078C17.9009 4.40057 18.4126 4.00003 19 4.00003C19.5874 4.00003 20.0991 4.40058 20.2401 4.97078L29.8936 44H30C30 44.0619 29.9116 44.0727 29.8967 44.0126L29.8936 44H8.10638Z" fill="url(#paint2_linear)"/>
+        </mask>
+        <g mask="url(#mask0)">
+            <rect x="6" y="3" width="27" height="41" fill="url(#paint3_linear)"/>
+            <g style="mix-blend-mode:overlay">
+                <rect x="26.6119" y="10.8581" width="2.36407" height="41.3712" transform="rotate(45 26.6119 10.8581)" fill="black"/>
+                <rect x="26.6119" y="10.8581" width="2.36407" height="41.3712" transform="rotate(45 26.6119 10.8581)" fill="black"/>
+            </g>
+            <g style="mix-blend-mode:overlay">
+                <rect x="22.4329" y="6.67902" width="2.36407" height="41.3712" transform="rotate(45 22.4329 6.67902)" fill="black"/>
+                <rect x="22.4329" y="6.67902" width="2.36407" height="41.3712" transform="rotate(45 22.4329 6.67902)" fill="black"/>
+            </g>
+            <g style="mix-blend-mode:overlay">
+                <rect x="18.2538" y="2.49988" width="2.36407" height="41.3712" transform="rotate(45 18.2538 2.49988)" fill="black"/>
+                <rect x="18.2538" y="2.49988" width="2.36407" height="41.3712" transform="rotate(45 18.2538 2.49988)" fill="black"/>
+            </g>
+            <g style="mix-blend-mode:overlay">
+                <rect x="30.7911" y="15.0373" width="2.36407" height="41.3712" transform="rotate(45 30.7911 15.0373)" fill="black"/>
+                <rect x="30.7911" y="15.0373" width="2.36407" height="41.3712" transform="rotate(45 30.7911 15.0373)" fill="black"/>
+            </g>
+            <g style="mix-blend-mode:overlay">
+                <rect x="34.9702" y="19.2164" width="2.36407" height="41.3712" transform="rotate(45 34.9702 19.2164)" fill="black"/>
+                <rect x="34.9702" y="19.2164" width="2.36407" height="41.3712" transform="rotate(45 34.9702 19.2164)" fill="black"/>
+            </g>
+            <g style="mix-blend-mode:overlay">
+                <rect x="39.1493" y="23.3955" width="2.36407" height="41.3712" transform="rotate(45 39.1493 23.3955)" fill="black"/>
+                <rect x="39.1493" y="23.3955" width="2.36407" height="41.3712" transform="rotate(45 39.1493 23.3955)" fill="black"/>
+            </g>
+            <g style="mix-blend-mode:overlay">
+                <rect x="43.3284" y="27.5746" width="2.36407" height="41.3712" transform="rotate(45 43.3284 27.5746)" fill="black"/>
+                <rect x="43.3284" y="27.5746" width="2.36407" height="41.3712" transform="rotate(45 43.3284 27.5746)" fill="black"/>
+            </g>
+            <g style="mix-blend-mode:overlay" opacity="0.3">
+                <rect x="26.6119" y="10.8581" width="2.36407" height="41.3712" transform="rotate(45 26.6119 10.8581)" fill="black"/>
+                <rect x="26.6119" y="10.8581" width="2.36407" height="41.3712" transform="rotate(45 26.6119 10.8581)" fill="black"/>
+            </g>
+            <g style="mix-blend-mode:overlay" opacity="0.3">
+                <rect x="22.4329" y="6.67902" width="2.36407" height="41.3712" transform="rotate(45 22.4329 6.67902)" fill="black"/>
+                <rect x="22.4329" y="6.67902" width="2.36407" height="41.3712" transform="rotate(45 22.4329 6.67902)" fill="black"/>
+            </g>
+            <g style="mix-blend-mode:overlay" opacity="0.3">
+                <rect x="18.2538" y="2.49988" width="2.36407" height="41.3712" transform="rotate(45 18.2538 2.49988)" fill="black"/>
+                <rect x="18.2538" y="2.49988" width="2.36407" height="41.3712" transform="rotate(45 18.2538 2.49988)" fill="black"/>
+            </g>
+            <g style="mix-blend-mode:overlay" opacity="0.3">
+                <rect x="30.7911" y="15.0373" width="2.36407" height="41.3712" transform="rotate(45 30.7911 15.0373)" fill="black"/>
+                <rect x="30.7911" y="15.0373" width="2.36407" height="41.3712" transform="rotate(45 30.7911 15.0373)" fill="black"/>
+            </g>
+            <g style="mix-blend-mode:overlay" opacity="0.3">
+                <rect x="34.9702" y="19.2164" width="2.36407" height="41.3712" transform="rotate(45 34.9702 19.2164)" fill="black"/>
+                <rect x="34.9702" y="19.2164" width="2.36407" height="41.3712" transform="rotate(45 34.9702 19.2164)" fill="black"/>
+            </g>
+            <g style="mix-blend-mode:overlay" opacity="0.3">
+                <rect x="39.1493" y="23.3955" width="2.36407" height="41.3712" transform="rotate(45 39.1493 23.3955)" fill="black"/>
+                <rect x="39.1493" y="23.3955" width="2.36407" height="41.3712" transform="rotate(45 39.1493 23.3955)" fill="black"/>
+            </g>
+            <g style="mix-blend-mode:overlay" opacity="0.3">
+                <rect x="43.3284" y="27.5746" width="2.36407" height="41.3712" transform="rotate(45 43.3284 27.5746)" fill="black"/>
+                <rect x="43.3284" y="27.5746" width="2.36407" height="41.3712" transform="rotate(45 43.3284 27.5746)" fill="black"/>
+            </g>
+        </g>
+    </g>
+    <defs>
+        <linearGradient id="paint0_linear" x1="8" y1="67.4318" x2="30" y2="67.4318" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#DBDBDB"/>
+            <stop offset="0.0637281" stop-color="#EBEBEB"/>
+            <stop offset="0.178482" stop-color="#DADADA"/>
+            <stop offset="0.48833" stop-color="#F6F6F6"/>
+            <stop offset="0.757139" stop-color="#EFEFEF"/>
+            <stop offset="1" stop-color="#DDDDDD"/>
+        </linearGradient>
+        <linearGradient id="paint1_linear" x1="8" y1="29.0909" x2="30" y2="29.0909" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#DBDBDB"/>
+            <stop offset="0.0637281" stop-color="#EBEBEB"/>
+            <stop offset="0.178482" stop-color="#DADADA"/>
+            <stop offset="0.48833" stop-color="#F6F6F6"/>
+            <stop offset="0.757139" stop-color="#EFEFEF"/>
+            <stop offset="1" stop-color="#DDDDDD"/>
+        </linearGradient>
+        <linearGradient id="paint2_linear" x1="8" y1="29.0909" x2="30" y2="29.0909" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#DBDBDB"/>
+            <stop offset="0.0637281" stop-color="#EBEBEB"/>
+            <stop offset="0.178482" stop-color="#DADADA"/>
+            <stop offset="0.48833" stop-color="#F6F6F6"/>
+            <stop offset="0.757139" stop-color="#EFEFEF"/>
+            <stop offset="1" stop-color="#DDDDDD"/>
+        </linearGradient>
+        <linearGradient id="paint3_linear" x1="6" y1="24.4318" x2="33" y2="24.4318" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#DBDBDB"/>
+            <stop offset="0.0637281" stop-color="#EBEBEB"/>
+            <stop offset="0.178482" stop-color="#DADADA"/>
+            <stop offset="0.48833" stop-color="#F6F6F6"/>
+            <stop offset="0.757139" stop-color="#EFEFEF"/>
+            <stop offset="1" stop-color="#DDDDDD"/>
+        </linearGradient>
+        <filter id="filter0_dd" x="0" y="3.05176e-05" width="38" height="99" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+            <feOffset dy="2"/>
+            <feGaussianBlur stdDeviation="2"/>
+            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0"/>
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+            <feOffset dy="4"/>
+            <feGaussianBlur stdDeviation="4"/>
+            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0"/>
+            <feBlend mode="normal" in2="effect1_dropShadow" result="effect2_dropShadow"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow" result="shape"/>
+        </filter>
+    </defs>
+</svg>

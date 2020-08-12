@@ -2,18 +2,30 @@
   "name": "bluebirdcloud-canvas",
   "version": "0.1.0",
   "private": true,
+  "displayName": "BluebirdCloud Canvas",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "postinstall": "cd node_modules/fabric && npm run build_with_gestures"
   },
   "dependencies": {
+    "@arch-inc/fabricjs-psbrush": "0.0.15",
+    "@types/fabric": "^3.6.7",
     "core-js": "^3.6.5",
+    "direct-vuex": "^0.11.1",
+    "fabric": "^3.6.3",
+    "feather-icons": "^4.28.0",
+    "focus-visible": "^5.1.0",
+    "pan-zoom": "^3.5.0",
     "register-service-worker": "^1.7.1",
+    "socket.io-client": "^2.3.0",
     "vue": "^2.6.11",
     "vue-class-component": "^7.2.3",
+    "vue-feather": "^1.0.1",
     "vue-property-decorator": "^8.4.2",
     "vue-router": "^3.2.0",
+    "vue-socket.io-extended": "^4.0.3",
     "vuex": "^3.4.0"
   },
   "devDependencies": {
@@ -35,9 +47,6 @@
     "prettier": "^1.19.1",
     "typescript": "~3.9.3",
     "vue-template-compiler": "^2.6.11"
-  },
-  "gitHooks": {
-    "pre-commit": "lint-staged"
   },
   "lint-staged": {
     "*.{js,jsx,vue,ts,tsx}": [
