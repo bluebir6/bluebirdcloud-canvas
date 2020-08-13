@@ -11,8 +11,8 @@ require("focus-visible");
 const routes: Array<RouteConfig> = [
   {
     path: "/",
-    name: "Home",
-    component: Home
+    name: "Loading...",
+    redirect: "/edit"
   },
   {
     path: "/edit",

@@ -1,8 +1,8 @@
+/* tslint:disable */
 import { fabric } from "fabric";
-import { isTouchSupported } from "fabric/fabric-impl";
 const panzoom = require("pan-zoom");
 class CanvasPanZoomHandler {
-  canvasFabric: fabric.Canvas;
+  canvasFabric: any;
   touchZoomFingerAverage = {
     x: 0,
     y: 0
@@ -11,7 +11,7 @@ class CanvasPanZoomHandler {
     x: 0,
     y: 0
   };
-  unpanzoom: any;
+  unpanzoom: unknown;
   constructor(canvasFabric: fabric.Canvas) {
     this.canvasFabric = canvasFabric;
     const upperCanvasEl = (this.canvasFabric
@@ -66,7 +66,7 @@ class CanvasPanZoomHandler {
     this.canvasFabric.on("mouse:down", () => {
       this.canvasFabric.requestRenderAll();
       this.canvasFabric.selection = false;
-      this.canvasFabric.forEachObject(function(o) {
+      this.canvasFabric.forEachObject(function (o) {
         o.selectable = false;
       });
       this.canvasFabric.renderAll();
@@ -77,7 +77,7 @@ class CanvasPanZoomHandler {
       this.canvasFabric.freeDrawingBrush.onMouseUp();
       this.canvasFabric.renderAll();
     });
-    this.canvasFabric.on("mouse:wheel", function(opt) {
+    this.canvasFabric.on("mouse:wheel", function (opt) {
       const delta = opt.e.deltaY;
       let zoom = this.canvasFabric.getZoom();
       zoom *= 0.999 ** delta;
@@ -90,7 +90,7 @@ class CanvasPanZoomHandler {
       opt.e.preventDefault();
       opt.e.stopPropagation();
     });
-    this.canvasFabric.on("mouse:down", function(opt) {
+    this.canvasFabric.on("mouse:down", function (opt) {
       const evt = opt.e;
       if (evt.altKey === true) {
         this.isDragging = true;
@@ -99,7 +99,7 @@ class CanvasPanZoomHandler {
         this.lastPosY = evt.clientY;
       }
     });
-    this.canvasFabric.on("mouse:move", function(opt) {
+    this.canvasFabric.on("mouse:move", function (opt) {
       if (this.isDragging) {
         const e = opt.e;
         const vpt = this.viewportTransform;
@@ -110,7 +110,7 @@ class CanvasPanZoomHandler {
         this.lastPosY = e.clientY;
       }
     });
-    this.canvasFabric.on("mouse:up", function(opt) {
+    this.canvasFabric.on("mouse:up", function (opt) {
       // on mouse up we want to recalculate new interaction
       // for all objects, so we call setViewportTransform
       this.setViewportTransform(this.viewportTransform);

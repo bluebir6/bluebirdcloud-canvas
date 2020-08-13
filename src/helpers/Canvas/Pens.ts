@@ -4,7 +4,7 @@ import { PSBrush } from "@arch-inc/fabricjs-psbrush";
 
 class CanvasDrawingPensProvider {
     canvasFabric: fabric.Canvas;
-    brush: typeopf  PSBrush;
+    brush: any;
     constructor(canvasFabric: fabric.Canvas) {
         this.canvasFabric = canvasFabric;
         this.brush = new PSBrush(this.canvasFabric)

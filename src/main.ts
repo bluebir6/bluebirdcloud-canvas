@@ -44,7 +44,7 @@ export const vm: Vue = new Vue({
     }
   },
   data: {
-    currentUsers: 0;
+    currentUsers: 0
   }
 }).$mount("#app");
 
